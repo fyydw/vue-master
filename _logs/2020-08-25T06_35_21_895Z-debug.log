@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Node.js\\node.exe',
+1 verbose cli   'E:\\Node.js\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@6.4.1
+3 info using node@v10.13.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle framing@1.0.0~prebuild: framing@1.0.0
+6 info lifecycle framing@1.0.0~build: framing@1.0.0
+7 verbose lifecycle framing@1.0.0~build: unsafe-perm in lifecycle true
+8 verbose lifecycle framing@1.0.0~build: PATH: E:\Node.js\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\扇陀\Desktop\framing\node_modules\.bin;C:\Users\扇陀\bin;E:\Git\Git\mingw64\bin;E:\Git\Git\usr\local\bin;E:\Git\Git\usr\bin;E:\Git\Git\usr\bin;E:\Git\Git\mingw64\bin;E:\Git\Git\usr\bin;C:\Users\扇陀\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;E:\Node.js;E:\Git\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MongoDB\Server\4.1\bin;C:\Users\扇陀\AppData\Local\Microsoft\WindowsApps;E:\软件库;E:\VS Code\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;E:\Node.js\node_global;E:\Git\Git\usr\bin\vendor_perl;E:\Git\Git\usr\bin\core_perl
+9 verbose lifecycle framing@1.0.0~build: CWD: C:\Users\扇陀\Desktop\framing
+10 silly lifecycle framing@1.0.0~build: Args: [ '/d /s /c', 'node build/build.js' ]
+11 silly lifecycle framing@1.0.0~build: Returned: code: 3221225786  signal: null
+12 info lifecycle framing@1.0.0~build: Failed to exec build script
+13 verbose stack Error: framing@1.0.0 build: `node build/build.js`
+13 verbose stack Exit status 3221225786
+13 verbose stack     at EventEmitter.<anonymous> (E:\Node.js\node_modules\npm\node_modules\npm-lifecycle\index.js:301:16)
+13 verbose stack     at EventEmitter.emit (events.js:182:13)
+13 verbose stack     at ChildProcess.<anonymous> (E:\Node.js\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:182:13)
+13 verbose stack     at maybeClose (internal/child_process.js:962:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+14 verbose pkgid framing@1.0.0
+15 verbose cwd C:\Users\扇陀\Desktop\framing
+16 verbose Windows_NT 10.0.16299
+17 verbose argv "E:\\Node.js\\node.exe" "E:\\Node.js\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+18 verbose node v10.13.0
+19 verbose npm  v6.4.1
+20 error code ELIFECYCLE
+21 error errno 3221225786
+22 error framing@1.0.0 build: `node build/build.js`
+22 error Exit status 3221225786
+23 error Failed at the framing@1.0.0 build script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 3221225786, true ]
